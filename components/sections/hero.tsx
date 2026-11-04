@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { ArrowRightIcon } from "lucide-react";
 
-import { Button } from "@/components/ui/button";
+import { buttonVariants } from "@/components/ui/button";
 import { Container } from "@/components/layout/container";
 
 /**
@@ -19,13 +19,14 @@ export function Hero() {
           레이아웃과 다크 모드는 준비되어 있으니 바로 기능 개발을 시작하세요.
         </p>
         <div className="flex flex-col gap-3 sm:flex-row">
-          <Button size="lg" render={<Link href="/contact" />}>
+          {/* 링크는 Button render 대신 buttonVariants를 적용해 네이티브 <a>로 렌더 (role="button" 방지) */}
+          <Link href="/contact" className={buttonVariants({ size: "lg" })}>
             문의하기
             <ArrowRightIcon />
-          </Button>
-          <Button size="lg" variant="outline" render={<Link href="/about" />}>
+          </Link>
+          <Link href="/about" className={buttonVariants({ size: "lg", variant: "outline" })}>
             소개 보기
-          </Button>
+          </Link>
         </div>
       </Container>
     </section>

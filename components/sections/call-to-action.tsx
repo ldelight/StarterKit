@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-import { Button } from "@/components/ui/button";
+import { buttonVariants } from "@/components/ui/button";
 import { Container } from "@/components/layout/container";
 
 /**
@@ -14,7 +14,10 @@ export function CallToAction() {
         <p className="max-w-xl text-muted-foreground">
           이 화면의 섹션을 교체하거나 새 페이지를 추가해 나만의 서비스를 만들어 보세요.
         </p>
-        <Button render={<Link href="/about" />}>자세히 알아보기</Button>
+        {/* 링크는 buttonVariants를 적용해 네이티브 <a>로 렌더 */}
+        <Link href="/about" className={buttonVariants()}>
+          자세히 알아보기
+        </Link>
       </Container>
     </section>
   );
