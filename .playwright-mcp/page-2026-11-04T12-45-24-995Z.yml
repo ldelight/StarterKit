@@ -1,0 +1,48 @@
+- generic [active] [ref=f11e1]:
+  - banner [ref=f11e2]:
+    - generic [ref=f11e3]:
+      - generic [ref=f11e4]:
+        - button "메뉴 열기" [ref=f11e5]
+        - link "Starter Kit" [ref=f11e6] [cursor=pointer]:
+          - /url: /
+      - button "테마 변경" [ref=f11e7]
+  - main [ref=f11e8]:
+    - generic [ref=f11e74]:
+      - generic [ref=f11e75]:
+        - navigation "breadcrumb" [ref=f11e76]:
+          - list [ref=f11e77]:
+            - listitem [ref=f11e78]:
+              - link "홈" [ref=f11e79] [cursor=pointer]:
+                - /url: /
+            - listitem [aria-hidden] [ref=f11e80]
+            - listitem [ref=f11e83]:
+              - link "소개" [disabled] [ref=f11e84]
+        - heading "소개" [level=1] [ref=f11e85]
+        - paragraph [ref=f11e86]: 이 스타터킷의 구성과 사용 방법입니다.
+      - generic [ref=f11e87]:
+        - generic [ref=f11e88]:
+          - generic [ref=f11e89]:
+            - generic [ref=f11e90]: 기술 스택
+            - generic [ref=f11e91]: Next.js 16 · React 19 · TypeScript · Tailwind CSS · shadcn/ui
+          - generic [ref=f11e92]: zustand, react-hook-form, zod, next-themes, sonner 등 검증된 라이브러리를 기본 포함합니다.
+        - generic [ref=f11e93]:
+          - generic [ref=f11e94]:
+            - generic [ref=f11e95]: 폴더 구조
+            - generic [ref=f11e96]: 계층을 나누어 의존 방향을 한쪽으로 유지합니다.
+          - generic [ref=f11e97]: ui → common → layout → sections → app 순으로 가져와 사용합니다.
+      - generic [ref=f11e98]:
+        - heading "자주 묻는 질문" [level=2] [ref=f11e99]
+        - generic [ref=f11e100]:
+          - heading [level=3] [ref=f11e102]:
+            - button "컴포넌트는 어디에 추가하나요?" [ref=f11e103]
+          - heading [level=3] [ref=f11e105]:
+            - button "새 페이지는 어떻게 만드나요?" [ref=f11e106]
+          - heading [level=3] [ref=f11e108]:
+            - button "환경변수는 어디서 관리하나요?" [ref=f11e109]
+  - contentinfo [ref=f11e68]:
+    - separator [ref=f11e69]
+    - generic [ref=f11e70]:
+      - paragraph [ref=f11e71]: © 2026 Starter Kit. All rights reserved.
+      - paragraph [ref=f11e72]: Next.js 16 · Tailwind CSS · shadcn/ui 기반 웹 스타터킷
+  - region "Notifications alt+T"
+  - alert [ref=f11e73]: 소개 | Starter Kit

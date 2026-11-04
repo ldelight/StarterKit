@@ -1,0 +1,54 @@
+- generic [ref=f6e1]:
+  - banner [ref=f6e2]:
+    - generic [ref=f6e3]:
+      - generic [ref=f6e4]:
+        - button "메뉴 열기" [ref=f6e78]
+        - link "Starter Kit" [ref=f6e79] [cursor=pointer]:
+          - /url: /
+      - button "테마 변경" [ref=f6e80]
+  - main [ref=f6e8]:
+    - generic [ref=f6e9]:
+      - generic [ref=f6e10]:
+        - heading "문의하기" [level=1] [ref=f6e81]
+        - paragraph [ref=f6e12]: 궁금한 점이나 제안 사항을 남겨 주세요.
+      - generic [ref=f6e13]:
+        - generic [ref=f6e14]:
+          - group [ref=f6e15]:
+            - generic [ref=f6e16]: 이름
+            - textbox "이름" [active] [invalid] [ref=f6e82]:
+              - /placeholder: 홍길동
+            - alert [ref=f6e83]: 이름은 2자 이상 입력해 주세요.
+          - group [ref=f6e18]:
+            - generic [ref=f6e19]: 이메일
+            - textbox "이메일" [invalid] [ref=f6e84]:
+              - /placeholder: you@example.com
+            - alert [ref=f6e85]: 올바른 이메일 주소를 입력해 주세요.
+        - group [ref=f6e21]:
+          - generic [ref=f6e22]: 문의 내용
+          - textbox "문의 내용" [invalid] [ref=f6e86]:
+            - /placeholder: 문의하실 내용을 입력해 주세요.
+          - paragraph [ref=f6e24]: 최대 1000자까지 입력할 수 있습니다.
+          - alert [ref=f6e87]: 문의 내용은 10자 이상 입력해 주세요.
+        - group [ref=f6e25]:
+          - generic [ref=f6e26]:
+            - checkbox "개인정보 수집 및 이용에 동의합니다." [invalid] [ref=f6e88]
+            - checkbox [aria-hidden] [ref=f6e28]
+            - generic [ref=f6e29]: 개인정보 수집 및 이용에 동의합니다.
+          - alert [ref=f6e89]: 개인정보 수집에 동의해 주세요.
+        - button "문의 보내기" [ref=f6e90]
+  - contentinfo [ref=f6e31]:
+    - separator [ref=f6e32]
+    - generic [ref=f6e33]:
+      - paragraph [ref=f6e34]: © 2026 Starter Kit. All rights reserved.
+      - paragraph [ref=f6e35]: Next.js 16 · Tailwind CSS · shadcn/ui 기반 웹 스타터킷
+  - region "Notifications alt+T"
+  - generic [ref=f6e40] [cursor=pointer]:
+    - button "Open Next.js Dev Tools" [ref=f6e41]
+    - generic [ref=f6e45]:
+      - button "Open issues overlay" [ref=f6e46]:
+        - generic [ref=f6e47]:
+          - generic [aria-hidden] [ref=f6e48]: "0"
+          - generic [ref=f6e49]: "1"
+        - generic [ref=f6e50]: Insight
+      - button "Collapse issues badge" [ref=f6e51]
+  - alert [ref=f6e55]

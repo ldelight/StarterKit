@@ -1,0 +1,61 @@
+- generic [active] [ref=f2e1]:
+  - banner [ref=f2e2]:
+    - generic [ref=f2e3]:
+      - link "Starter Kit" [ref=f2e5] [cursor=pointer]:
+        - /url: /
+      - navigation [ref=f2e6]:
+        - link "홈" [ref=f2e7] [cursor=pointer]:
+          - /url: /
+        - link "소개" [ref=f2e8] [cursor=pointer]:
+          - /url: /about
+        - link "문의" [ref=f2e9] [cursor=pointer]:
+          - /url: /contact
+      - button "테마 변경" [ref=f2e10]
+  - main [ref=f2e11]:
+    - generic [ref=f2e12]:
+      - generic [ref=f2e13]:
+        - navigation "breadcrumb" [ref=f2e14]:
+          - list [ref=f2e15]:
+            - listitem [ref=f2e16]:
+              - link "홈" [ref=f2e17] [cursor=pointer]:
+                - /url: /
+            - listitem [aria-hidden] [ref=f2e18]
+            - listitem [ref=f2e21]:
+              - link "소개" [disabled] [ref=f2e22]
+        - heading "소개" [level=1] [ref=f2e23]
+        - paragraph [ref=f2e24]: 이 스타터킷의 구성과 사용 방법입니다.
+      - generic [ref=f2e25]:
+        - generic [ref=f2e26]:
+          - generic [ref=f2e27]:
+            - generic [ref=f2e28]: 기술 스택
+            - generic [ref=f2e29]: Next.js 16 · React 19 · TypeScript · Tailwind CSS · shadcn/ui
+          - generic [ref=f2e30]: zustand, react-hook-form, zod, next-themes, sonner 등 검증된 라이브러리를 기본 포함합니다.
+        - generic [ref=f2e31]:
+          - generic [ref=f2e32]:
+            - generic [ref=f2e33]: 폴더 구조
+            - generic [ref=f2e34]: 계층을 나누어 의존 방향을 한쪽으로 유지합니다.
+          - generic [ref=f2e35]: ui → common → layout → sections → app 순으로 가져와 사용합니다.
+      - generic [ref=f2e36]:
+        - heading "자주 묻는 질문" [level=2] [ref=f2e37]
+        - generic [ref=f2e38]:
+          - heading [level=3] [ref=f2e40]:
+            - button "컴포넌트는 어디에 추가하나요?" [ref=f2e41]
+          - heading [level=3] [ref=f2e43]:
+            - button "새 페이지는 어떻게 만드나요?" [ref=f2e44]
+          - heading [level=3] [ref=f2e46]:
+            - button "환경변수는 어디서 관리하나요?" [ref=f2e47]
+  - contentinfo [ref=f2e48]:
+    - separator [ref=f2e49]
+    - generic [ref=f2e50]:
+      - paragraph [ref=f2e51]: © 2026 Starter Kit. All rights reserved.
+      - paragraph [ref=f2e52]: Next.js 16 · Tailwind CSS · shadcn/ui 기반 웹 스타터킷
+  - region "Notifications alt+T"
+  - generic [ref=f2e57] [cursor=pointer]:
+    - button "Open Next.js Dev Tools" [ref=f2e58]
+    - generic [ref=f2e62]:
+      - button "Open issues overlay" [ref=f2e63]:
+        - generic [ref=f2e64]:
+          - generic [aria-hidden] [ref=f2e65]: "0"
+          - generic [ref=f2e66]: "1"
+        - generic [ref=f2e67]: Insight
+      - button "Collapse issues badge" [ref=f2e68]

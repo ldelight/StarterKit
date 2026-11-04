@@ -1,0 +1,50 @@
+- generic [active] [ref=f8e1]:
+  - banner [ref=f8e2]:
+    - generic [ref=f8e3]:
+      - generic [ref=f8e4]:
+        - button "메뉴 열기" [ref=f8e5]
+        - link "Starter Kit" [ref=f8e6] [cursor=pointer]:
+          - /url: /
+      - button "테마 변경" [ref=f8e7]
+  - main [ref=f8e8]:
+    - generic [ref=f8e92]:
+      - generic [ref=f8e93]:
+        - heading "문의하기" [level=1] [ref=f8e94]
+        - paragraph [ref=f8e95]: 궁금한 점이나 제안 사항을 남겨 주세요.
+      - generic [ref=f8e96]:
+        - generic [ref=f8e97]:
+          - group [ref=f8e98]:
+            - generic [ref=f8e99]: 이름
+            - textbox "이름" [ref=f8e100]:
+              - /placeholder: 홍길동
+          - group [ref=f8e101]:
+            - generic [ref=f8e102]: 이메일
+            - textbox "이메일" [ref=f8e103]:
+              - /placeholder: you@example.com
+        - group [ref=f8e104]:
+          - generic [ref=f8e105]: 문의 내용
+          - textbox "문의 내용" [ref=f8e106]:
+            - /placeholder: 문의하실 내용을 입력해 주세요.
+          - paragraph [ref=f8e107]: 최대 1000자까지 입력할 수 있습니다.
+        - group [ref=f8e108]:
+          - generic [ref=f8e109]:
+            - checkbox "개인정보 수집 및 이용에 동의합니다." [ref=f8e110]
+            - checkbox [aria-hidden] [ref=f8e111]
+            - generic [ref=f8e112]: 개인정보 수집 및 이용에 동의합니다.
+        - button "문의 보내기" [ref=f8e113]
+  - contentinfo [ref=f8e68]:
+    - separator [ref=f8e69]
+    - generic [ref=f8e70]:
+      - paragraph [ref=f8e71]: © 2026 Starter Kit. All rights reserved.
+      - paragraph [ref=f8e72]: Next.js 16 · Tailwind CSS · shadcn/ui 기반 웹 스타터킷
+  - region "Notifications alt+T"
+  - generic [ref=f8e77] [cursor=pointer]:
+    - button "Open Next.js Dev Tools" [ref=f8e78]
+    - generic [ref=f8e82]:
+      - button "Open issues overlay" [ref=f8e83]:
+        - generic [ref=f8e84]:
+          - generic [aria-hidden] [ref=f8e85]: "0"
+          - generic [ref=f8e86]: "1"
+        - generic [ref=f8e87]: Insight
+      - button "Collapse issues badge" [ref=f8e88]
+  - alert [ref=f8e91]: 빠르게 시작하는 웹 스타터킷

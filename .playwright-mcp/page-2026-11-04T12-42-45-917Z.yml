@@ -1,0 +1,35 @@
+- generic [active] [ref=f4e1]:
+  - banner [ref=f4e2]:
+    - generic [ref=f4e3]:
+      - link "Starter Kit" [ref=f4e5] [cursor=pointer]:
+        - /url: /
+      - navigation [ref=f4e6]:
+        - link "홈" [ref=f4e7] [cursor=pointer]:
+          - /url: /
+        - link "소개" [ref=f4e8] [cursor=pointer]:
+          - /url: /about
+        - link "문의" [ref=f4e9] [cursor=pointer]:
+          - /url: /contact
+      - button "테마 변경" [ref=f4e10]
+  - main [ref=f4e11]:
+    - generic [ref=f4e12]:
+      - paragraph [ref=f4e13]: "404"
+      - heading "페이지를 찾을 수 없습니다" [level=1] [ref=f4e14]
+      - paragraph [ref=f4e15]: 주소가 잘못되었거나 페이지가 이동되었을 수 있습니다.
+      - button "홈으로 돌아가기" [ref=f4e16] [cursor=pointer]
+  - contentinfo [ref=f4e17]:
+    - separator [ref=f4e18]
+    - generic [ref=f4e19]:
+      - paragraph [ref=f4e20]: © 2026 Starter Kit. All rights reserved.
+      - paragraph [ref=f4e21]: Next.js 16 · Tailwind CSS · shadcn/ui 기반 웹 스타터킷
+  - region "Notifications alt+T"
+  - generic [ref=f4e26] [cursor=pointer]:
+    - button "Open Next.js Dev Tools" [ref=f4e27]
+    - generic [ref=f4e31]:
+      - button "Open issues overlay" [ref=f4e32]:
+        - generic [ref=f4e33]:
+          - generic [aria-hidden] [ref=f4e34]: "0"
+          - generic [ref=f4e35]: "1"
+        - generic [ref=f4e36]: Insight
+      - button "Collapse issues badge" [ref=f4e37]
+  - alert [ref=f4e40]
